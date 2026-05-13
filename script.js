@@ -17,7 +17,7 @@ const toggleBtn = document.querySelector("#toggle");
 // Can change attributes & properties using JS 
 heading.textContent = "Light & Dark Website"; // JS wrote HTML code!
 heading.style.color = "olive"; 
-heading.style.background ="pink";
+heading.style.background ="plum";
 
 // Define what happens when button is clicked 
 function toggleMode() {
@@ -47,3 +47,20 @@ if ( darkMode == true) {
 
 // Attach function to the actual button
 toggleBtn.addEventListener("click", toggleMode);
+
+
+// REVIEW: Making a button interactive 
+// 1. Select HTML elements for JS to target 
+const image = document.querySelector("#image");
+const hackerBtn = document.querySelector("#hacker");
+//Attach a function to the button that triggers when clicked
+hackerBtn.addEventListener("click",setHacker);
+//3. Define the function 
+function setHacker() {
+body.style.background = "black";
+body.style.fontFamily = "monospace";
+description.style.color = "green";
+description.textContent = "YOU HAVE BEEN HACKED teheheheh ";
+image.src ="hacker.gif";
+}
+
