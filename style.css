@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+
+
+#heading2 { color: rgb(0, 0, 0) ;
+       font-family: "Rokkitt" !important;
+       font-size: 40px;
+ }
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+ #heading3 { color: rgb(119, 164, 157) ;
+       font-family: "Rochester" !important;
+       font-size: 17px;
+
+
+ }
+
+ #toggle1 {
+   
+      color: rgb(173, 202, 214);
+
+ }
+
+ 
